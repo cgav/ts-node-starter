@@ -9,14 +9,10 @@
     "moduleResolution": "node",
     "baseUrl": "./src",
     "paths": {
-      // "~/*": ["./*"]
       "~/*": ["./*"]
     },
     "esModuleInterop": true
-
-    // "noImplicitReturns": true,
-    // "noUnusedLocals": false,
-  }
-  // "compileOnSave": true,
-  // "include": ["src"]
+  },
+  "compileOnSave": true,
+  "include": ["src"]
 }
