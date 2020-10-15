@@ -1,16 +1,22 @@
 {
   "compilerOptions": {
+    "target": "esnext",
     "module": "commonjs",
-    "noImplicitReturns": true,
-    "noUnusedLocals": false,
-    "esModuleInterop": true,
-    "outDir": "lib",
+    "lib": ["ESNext"],
     "sourceMap": true,
+    "outDir": "lib",
     "strict": true,
-    "target": "es2017"
-  },
-  "compileOnSave": true,
-  "include": [
-    "src",
-  ]
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      // "~/*": ["./*"]
+      "~/*": ["./*"]
+    },
+    "esModuleInterop": true
+
+    // "noImplicitReturns": true,
+    // "noUnusedLocals": false,
+  }
+  // "compileOnSave": true,
+  // "include": ["src"]
 }
