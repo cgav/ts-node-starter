@@ -1,5 +1,5 @@
-import 'module-alias/register';
+import './resolve-module-aliases';
 
 import { foo } from '~/foo';
 
-console.log('Hello world!', { foo, bar });
+console.log('Hello world!', { foo });
