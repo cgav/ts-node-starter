@@ -25,8 +25,5 @@
     "dotenv": "^8.2.0",
     "env-var": "^6.3.0",
     "module-alias": "^2.2.2"
-  },
-  "_moduleAliases": {
-    "~": "lib"
   }
 }
